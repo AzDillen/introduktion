@@ -27,7 +27,7 @@ def rovarsprak(string):
 
 def area(width, height):
     """Returnerar arean av en figur med bredden 'width' och höjden 'height'."""
-    pass
+    return width * height
 
 
 def to_seconds(time):
@@ -42,8 +42,9 @@ def is_of_age(age):
 
 def vowel(character):
     """Returnerar true om 'character' är en vokal, annart false."""
-    pass
-
+    if character.lower () in "auoiyåäöe":
+        return True
+    return False
 
 def reverse(words):
     """Byter ordning på alla tecken i strängen `words`, returnerar resultatet.

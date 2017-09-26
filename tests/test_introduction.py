@@ -24,7 +24,7 @@ def test_rovarsprak():
     assert rovarsprak("TE13 är bäst.") == "TOTE13 äror bobäsostot."
 
 
-@pytest.mark.skip('Not implemented yet.')
+
 def test_area():
     assert area(20, 20) == 400
     assert area(23.5, 24.0) == 564
@@ -43,7 +43,7 @@ def test_is_of_age():
     assert is_of_age(17.5) == False
 
 
-@pytest.mark.skip('Not implemented yet.')
+
 @pytest.mark.parametrize('character, expected', [
 ('a', True), ('e', True), ('i', True), ('o', True), ('u', True), ('y', True), ('å', True), ('ä', True), ('ö', True),
 ('A', True), ('E', True), ('I', True), ('O', True), ('U', True), ('Y', True), ('Å', True), ('Ä', True), ('Ö', True),
